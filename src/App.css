@@ -1,0 +1,110 @@
+*body{
+  padding:0px;
+  margin:0px;
+  }
+
+.navbar{
+  width: auto;
+  background-color:navy;
+  height:100px;
+  
+  display:flex;
+  gap:10px;
+  justify-content: center;
+  color:white;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+li{
+  list-style-type: none;
+}
+Button:hover{
+  color:red;
+  
+  
+
+}
+.logo{
+  font-display: left;
+  font-size: 34px;
+}
+.navlogin{
+  display: flex;
+  justify-items: right;
+  align-items: right;
+  gap: 12px;
+}
+
+.home{
+  background-color: navy;
+  height:100vh;
+  color:white;
+}
+.login{
+  Width:600px;
+  height:auto;
+  background-color: aqua;
+  padding: 13px 12px 12px 19px;
+ display:flex;
+ flex-direction: column;
+ gap:20px;
+
+}
+.login1{
+  
+  display:flex;
+  justify-content: center;
+  padding-top: 100px;
+  
+ 
+}
+.buttlogin{
+  display: flex;
+  gap:10px;
+  justify-content: center;
+}
+input{
+  border-radius: 12px;
+  height:50px;
+}
+.Link{
+  text-decoration: none;
+}
+.cardinform{
+  display:flex;
+  gap:12px;
+  padding-top: 12px;
+}
+.welcome{
+  text-align: center;
+}
+.descriptioncard{
+  text-align: center;
+}
+.footerhome{
+  display: flex;
+  justify-content: center;
+
+}
+.footericon{
+  display:flex;
+  gap:12px;
+  padding:30px 0px 0px 0px;
+}
+.footerdes{
+  color:white;
+  padding:20px 0px 0px 0px;
+  
+}
+@media (max-width: 768px) { 
+  .login1{
+    width:80%;
+    background-color: aquamarine;
+
+  }
+  .home{
+    width: 60%;
+    background-color: aqua;
+  }
+
+}
